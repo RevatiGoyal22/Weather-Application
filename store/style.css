@@ -1,8 +1,11 @@
+
 .type {
     text-align: center;
 }
 .weather-wrapper {
-    border: 1px solid black;
+    background-color: #fff;
+    border: 1px solid rgb(27, 196, 208);
+    border-radius: 6px;
     max-width: 600px;
     height: fit-content;
     margin : 200px auto;
@@ -19,9 +22,9 @@ ul {
 
 .city-information{
     font-size: 23px;
-    color: rgba(49, 58, 58, 0.46);
+    color: rgba(49, 58, 58, 0.54);
 }
-.city-information::first-letter{
+li:first-letter{
     text-transform: capitalize;
 }
 
@@ -35,7 +38,7 @@ strong {
     font-size: 50px;
     font-weight: 400;
     padding: 0;
-    margin-right: 0    ;
+    margin-right: 0;
 }
 
 .temp-conversion {
@@ -48,10 +51,6 @@ strong {
 .weather-condition {
     font-size: 20px;
     color: rgba(49, 58, 58, 0.46);
-}
-a {
-    text-decoration: none;
-    color:black;
 }
 
 #forecast-description {
@@ -69,6 +68,12 @@ a {
 
 }
 #forecast-icon  {
-    width:48px;
-    padding: 10px 8px 0px 8px;
+    top: -2.3px;
+    width:60px;
+    padding: 2px;
+    background-color: rgb(27, 196, 208);
+}
+#forecastTempMin {
+    color: black;
+    opacity: 0.54;
 }
